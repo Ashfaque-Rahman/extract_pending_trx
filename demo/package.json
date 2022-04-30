@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "A demo project for retrieving pending transactions from Polygon mempool and display them to users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Md Ashfaque Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "json-stringify-safe": "^5.0.1",
+    "react-json-pretty": "^2.2.0",
+    "web3": "^1.7.3"
+  }
+}
