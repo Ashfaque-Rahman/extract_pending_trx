@@ -36,4 +36,23 @@ Clone the repo and Open it in your code editor of choice (I used VS Code)
     $ git clone https://github.com/Ashfaque-Rahman/extract_pending_trx.git
     $ cd demo
     $ npm install
+
+## Configuration
+Create an `.env` file in inside `demo` folder. Update the .env file with your respective checkpoints and project ID. You can also run the code for different accounts of your choice. The input should look like following
+
+```
+PROJECT_ID = "XXXXXXXXXX"
+ACCOUNT_NAME = "0x70C575588B98C1F46B1382c706AdAf398A874e3E"
+HTTPS_ENDPOINT = "https://nd-165-398-323.p2pify.com/project_id"
+WSS_ENDPOINT = "wss://ws-nd-165-398-323.p2pify.com/project_id"
+```
+
+Finally, run the `index.js` file like following, 
+
     $ node index.js
+
+## Output
+Once you run the above command, it will start displaying the pending transactions from Polygon PoS. It may take few minutes before it starts showing the transactions.
+
+![alt=“”](https://github.com/Ashfaque-Rahman/extract_pending_trx/blob/main/images/output1.PNG)
+
